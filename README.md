@@ -42,3 +42,14 @@ protected void Application_Error(object sender, EventArgs e)
         }
 
 */
+
+/*SQL SERVER CONEXION IN THE CLASS
+public string ConexionSQL()
+        {
+            SqlConnectionStringBuilder conexion = new SqlConnectionStringBuilder();
+            conexion.DataSource = "DESKTOP-5ILIF80";    // SERVER
+            conexion.InitialCatalog = "prueba_SQL";      //DATABASE
+            conexion.IntegratedSecurity = true;
+
+            return conexion.ConnectionString;   //Retorno la conexion.ConnectionString
+        }
